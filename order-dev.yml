@@ -1,0 +1,26 @@
+
+
+spring:
+  application:
+    name: client-eureka
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: client-eureka #在后台 链接处不用ip 用这个别名来显示
+
+CLIENT-EUREKA:
+  rebbon:
+    NFLoadBalanceRuleClassName: com.netflix.loadbalancer.RandomRule  #随机方式 的 负载均衡
+
+
