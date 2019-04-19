@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8762/eureka/
 #  instance:
 #    hostname: client-eureka #在后台 链接处不用ip 用这个别名来显示
 
