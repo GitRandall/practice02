@@ -16,5 +16,5 @@ CLIENT-EUREKA:
     NFLoadBalanceRuleClassName: com.netflix.loadbalancer.RandomRule  #随机方式 的 负载均衡
     
 girl:
-  name: lili
-  age: 18
+  name: lisanmei
+  age: 19
