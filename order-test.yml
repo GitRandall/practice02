@@ -14,3 +14,7 @@ spring:
 CLIENT-EUREKA:
   rebbon:
     NFLoadBalanceRuleClassName: com.netflix.loadbalancer.RandomRule  #随机方式 的 负载均衡
+    
+girl:
+  name: lili
+  age: 18
